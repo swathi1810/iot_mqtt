@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-@author: u6439994
 """
 import paho.mqtt.client as mqtt
 import time
