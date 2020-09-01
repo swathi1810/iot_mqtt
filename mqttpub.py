@@ -32,7 +32,7 @@ port = 1883                        #Broker port
 user = "students"                    #Connection username
 password = "33106331"
  
-client = mqtt.Client("3310-u6439994",mqtt.MQTTv31) #create new instance
+client = mqtt.Client("3310",mqtt.MQTTv31) #create new instance
 client.username_pw_set(user, password=password)    #set username and password
 client.on_connect= on_connect 
 client.on_publish = on_publish                     #attach function to callback
